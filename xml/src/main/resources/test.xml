@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test_object xmlns:ns2="aza">
+    <component>
+        <type>sub2</type>
+    </component>
+    <component>
+        <type>sub2</type>
+    </component>
+    <id>ABC</id>
+    <something>A</something>
+</ns2:test_object>

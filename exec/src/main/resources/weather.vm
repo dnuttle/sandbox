@@ -1,0 +1,10 @@
+## Simple velocity template
+***********************************
+Current weather conditions for:
+${weather.city}, ${weather.region}, ${weather.country}
+
+Temperature:  ${weather.temp}
+  Condition:  ${weather.condition}
+   Humidity:  ${weather.humidity}
+ Wind Chill:  ${weather.chill}
+***********************************

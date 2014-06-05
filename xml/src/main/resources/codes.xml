@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campaignAlgorithms>
+  <campaignAlgorithm>
+    <campaignId value="3812"/>
+    <clientCode value="corona"/>
+    <keyMetric value="Conversion Rate"/>
+    <modelingGoal value="32767"/>
+    <algorithmId value="1"/>
+    <modellables>
+      <modellable value="6752" key="0" group="2" deleted="false"/>
+      <modellable value="6751" key="0" group="3" deleted="false"/>
+      <modellable value="6754" key="1" group="0" deleted="false"/>
+      <modellable value="6753" key="1" group="1" deleted="false"/>
+    </modellables>
+  </campaignAlgorithm>
+</campaignAlgorithms>

@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+  <bean id="test1" class="net.nuttle.spring.Test">
+    <constructor-arg type="java.lang.String"><value>This is the constructor value</value></constructor-arg>
+  </bean>
+  <bean id="test2" class="net.nuttle.spring.Test"/>
+  <bean id="yahoo-parser" class="net.nuttle.sandbox.weather.YahooParser"/>
+  <bean id="yahoo-retriever" class="net.nuttle.sandbox.weather.YahooRetriever"/>
+  <bean id="weather-formatter" class="net.nuttle.sandbox.weather.WeatherFormatter"/>
+</beans>

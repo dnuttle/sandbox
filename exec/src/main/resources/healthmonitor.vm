@@ -1,0 +1,7 @@
+***********************************
+HEALTH CHECK FOR ${health.host}
+
+       HDFS: ${health.hdfs}
+Job Tracker: ${health.jobTracker} 
+
+***********************************
