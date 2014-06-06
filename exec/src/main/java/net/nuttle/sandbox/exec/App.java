@@ -4,9 +4,10 @@ import org.apache.log4j.Logger;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import net.nuttle.sandbox.jsoup.JsoupDemo;
-import net.nuttle.sandbox.weather.SpringWeatherDemo;
-import net.nuttle.spring.Test;
+import net.nuttle.sandbox.spring.Test;
+
+import net.nuttle.sandbox.jackson.JacksonMapperDemo;
+import net.nuttle.sandbox.json.gson.GsonDemo;
 
 
 
@@ -19,7 +20,9 @@ public class App
 		//HttpClientLab.getExample1();
 	  //SpringWeatherDemo.printWeather("60118");
 	  //SpringWeatherDemo.printWeather("90210");
-	  JsoupDemo.printHealth("localhost");
+	  //JsoupDemo.printHealth("localhost");
+	  JacksonMapperDemo.mapObject();
+	  GsonDemo.gsonDemo();
 	  
 	}
 	
