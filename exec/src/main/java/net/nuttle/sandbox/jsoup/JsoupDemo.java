@@ -1,7 +1,5 @@
 package net.nuttle.sandbox.jsoup;
 
-import java.io.IOException;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;

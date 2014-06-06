@@ -1,12 +1,9 @@
 package net.nuttle.sandbox.config;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Enumeration;
 import java.util.Properties;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 
 /**

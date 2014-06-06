@@ -15,6 +15,7 @@ import org.dom4j.io.SAXReader;
  */
 public class YahooParser {
 
+  @SuppressWarnings("unused")
   private static final Logger LOG = Logger.getLogger(YahooParser.class);
   
   public Weather parse(InputStream stream) throws DocumentException {

@@ -13,7 +13,8 @@ import net.nuttle.sandbox.json.gson.GsonDemo;
 
 public class App 
 {
-	private static final Logger LOG = Logger.getLogger(App.class);
+	@SuppressWarnings("unused")
+  private static final Logger LOG = Logger.getLogger(App.class);
 	
 	public static void main( String[] args ) throws Exception
 	{

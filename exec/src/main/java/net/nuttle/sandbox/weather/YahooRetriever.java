@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
  *
  */
 public class YahooRetriever {
+  @SuppressWarnings("unused")
   private static final Logger LOG = Logger.getLogger(YahooRetriever.class);
   
   public InputStream retrieve(String zipCode) throws IOException {
